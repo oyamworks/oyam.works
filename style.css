@@ -1,0 +1,23 @@
+.navbar-nav li {
+  padding-left: 3rem;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color:black;
+}
+.text-center {
+  padding-top : 100px;
+  padding-bottom: 30px;
+}
+
+.col img {
+
+   color: black;
+   
+  transition: transform .2s;
+
+}
+.col:hover img {
+ box-shadow: 13px 13px;
+transform: scale(1.1);
+}
