@@ -19,7 +19,7 @@
 }
 .col:hover img {
  box-shadow: 13px 13px;
-transform: scale(1);
+transform: scale(1.1);
 }
 h1 {
   padding-bottom: 20px;
