@@ -35,8 +35,11 @@ a:active {
   transition: transform .2s;
 
 }
-
+h3 {
+  color: white;
+}
 h3:hover {
+  color : #FFD900;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
   font-size: 30px;
@@ -45,6 +48,7 @@ h3:hover {
 
 animation: shake 0.5s;
 animation-iteration-count: infinite;
+color: yellow;
 }
 
 

@@ -17,6 +17,10 @@
   transition: transform .2s;
 
 }
+.testid img {
+  color: purple;
+  transition: transform .2s;
+}
 .col:hover img {
  box-shadow: 13px 13px;
 transform: scale(1.1);
