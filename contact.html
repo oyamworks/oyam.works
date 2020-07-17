@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+
+        <link rel="stylesheet" media="screen" href="css/style.css">
     <link rel="stylesheet" href="bootstrap.css">
-      <link href="style2.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+
+
 
     <title>OYAM</title>
   </head>
  <!-- Navagation bar -->
   <body>
+    <div id="particles-js"> </div>
    <nav class = "navbar fixed-top navbar-expand-sm navbar-light bg-light">
      <a class="navbar-brand" href="index.html">
    <img src="https://imgur.com/nEDHNhX.gif" width="120" height="50" alt="">
@@ -53,20 +58,26 @@
    </div>
   <div class = "footer">
     <div class="text-center">
-   <a href = "mailto:oyamworks@gmail.com?subject = &body = " style="color:black">
+   <a href = "mailto:oyamworks@gmail.com?subject = &body = ">
   <h3> oyamworks@gmail.com </h3>
   </a>
   </div>
 </div>
+<script src="../particles.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+</script>
+<script> particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+}); </script>
  </body>
 
 
 
-    </body>
-     </html>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </html>
