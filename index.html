@@ -78,6 +78,19 @@
          </div>
        </div>
 
+       <div class = "container">
+         <div class = "col text-center img-fluid">
+      <footer>
+           <p id = "demo"></p>
+         </footer>
+       </div>
+      </div>
+         <script>
+      var myVar = setInterval(myTimer, 1000);
+      function myTimer() {
+      var d = new Date();
+      document.getElementById("demo").innerHTML = d.toLocaleTimeString();}
+      </script>
 
 
 
