@@ -43,8 +43,17 @@
    <h1> Oyamworks  </h1>
     <h1> Brooklyn  </h1>
      <h1> 2020  </h1>
-     </div>
-     </div>
+<footer>
+       <p id = "demo"></p>
+     </footer>
+   </div>
+ </div>
+     <script>
+var myVar = setInterval(myTimer, 1000);
+function myTimer() {
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toLocaleTimeString();}
+</script>
  <script src="../particles.js"></script>
  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
  </script>
