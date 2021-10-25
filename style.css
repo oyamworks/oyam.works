@@ -3,10 +3,6 @@ body {
 	}
 .navbar-nav li {
   padding-left: 3rem;
-
-}
-.navbar-light .navbar-nav .nav-link {
-  color:rgb(233, 233, 233);
 }
 .img-fluid {
   padding-top : 100px;
